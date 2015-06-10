@@ -3,7 +3,7 @@ git_revision.fi: git_revision
 	
 # Prevent unnecessary recompilation by only modifying git_revision.fi when the revision changes 
 git_revision:
-	git rev-parse HEAD | head -c 7 | xargs printf "character(len=*), parameter :: git_revision = '%s" > $@.tmp
+	git rev-parse --short HEAD | xargs printf "character(len=*), parameter :: git_revision = '%s" > $@.tmp
 ifeq ($(DEBUG), 1)
 	echo -n "-debug" >> $@.tmp
 endif
