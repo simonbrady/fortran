@@ -1,0 +1,4 @@
+# Match everything except this file and Makefile
+*
+!.gitignore
+!Makefile
