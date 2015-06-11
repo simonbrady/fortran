@@ -20,4 +20,5 @@ Fortran-to-C converter, may have seen this gem in the header file
 
 I recently bought a second-hand copy of this dictionary from
 [Amazon Japan](http://www.amazon.co.jp/gp/product/4095100923), and sure
-enough, the quote is right there on page 99.
+enough, the quote is right there on
+[page 99](http://www.hikari.org.nz/stuff/random/fortran_barf.jpg).
