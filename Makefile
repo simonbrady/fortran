@@ -6,7 +6,7 @@ LIBDIRS=mkl_wrapper iterative_utils cg jacobi tridiag
 EXEDIRS=dense_parabolic dense_solver elliptic omp_test sparse_test
 SUBDIRS=$(LIBDIRS) $(EXEDIRS)
 
-MARKDOWN=markdown2
+MARKDOWN=markdown_py
 
 .PHONY: $(SUBDIRS) install clean distclean libinstall
 
